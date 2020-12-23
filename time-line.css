@@ -6,7 +6,7 @@ body{
 /* 타임라인 */
 #time_line_2019{
   position: relative;
-  top: 250px;
+  top: 220px;
   width: 1200px;
   margin: 0 auto;
   height: 5px;
@@ -16,7 +16,7 @@ body{
 
 #time_line_2020{
   position: relative;
-  top: 550px;
+  top: 520px;
   width: 1200px;
   margin: 0 auto;
   height: 5px;
