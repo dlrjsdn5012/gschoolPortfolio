@@ -1,0 +1,25 @@
+body{
+  all: unset;
+  background-color: rgb(65, 65, 65);
+}
+
+/* 타임라인 */
+#time_line_2019{
+  position: relative;
+  top: 250px;
+  width: 1200px;
+  margin: 0 auto;
+  height: 5px;
+  background-color: rgb(235, 235, 235); 
+  z-index: -1;
+}
+
+#time_line_2020{
+  position: relative;
+  top: 550px;
+  width: 1200px;
+  margin: 0 auto;
+  height: 5px;
+  background-color: rgb(235, 235, 235); 
+  z-index: -1;
+}
