@@ -1,0 +1,120 @@
+/* 육각형 클래스 */
+.hexagon {
+  position: relative;
+  margin: 1em auto;
+  width: 3.33em;
+  height: 5em;
+  border-radius: 1em/.5em;
+  background: rgb(206, 206, 206);
+  transition: opacity .5s;
+  z-index: -1;
+  transform: rotate(30deg);       
+  transition: all 0.5s;
+}
+.hexagon:before {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg); 
+  z-index: -1;
+}
+
+.hexagon:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg); 
+  z-index: -1;
+}
+
+/* 아이콘 이미지 크기 */
+.module_icon{
+  position: absolute;
+  top: 12%;
+  left: -4.5%;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  transform: rotate(-30deg);
+  transition: all 1s;
+}
+.icon_hover{
+  transform: rotate( -360deg );
+}
+
+#m_1_hexagon{
+  position: absolute;
+  top: -125px;
+  left: 20.35%;
+  margin-left: -50px;
+}
+.hexagon_hover_1{
+  transform: rotate( 360deg );
+  background: rgb(224, 94, 126);
+  margin: 0px 100px;
+}
+#module_1_dot{
+  left: 18%;
+  z-index: 2;
+}
+
+#m_2_hexagon{
+  position: absolute;
+  top: -125px;
+  left: 40%;
+  margin-left: -22px;
+}
+.hexagon_hover_2{
+  transform: rotate( 360deg );
+  background: rgb(111, 209, 255);
+  margin: 0px 100px;
+}
+#module_2_dot{
+  left: 40%;
+}
+
+#m_3_hexagon{
+  position: absolute;
+  top: -125px;
+  left: 60%;
+  margin-left: -22px;
+}
+.hexagon_hover_3{
+  transform: rotate( 360deg );
+  background: rgb(140, 255, 194);
+  margin: 0px 100px;
+}
+#module_3_dot{
+  left: 60%;
+}
+
+#m_4_hexagon{
+  position: absolute;
+  top: -125px;
+  left: 82%;
+  margin-left: -22px;
+}
+.hexagon_hover_4{
+  transform: rotate( 360deg );
+  background: rgb(213, 125, 235);
+  margin: 0px 100px;
+}
+#m_4_icon{
+  top: 18%;
+  left: 2%;
+  width: 50px;
+  height: 50px;
+}
+#module_4_dot{
+  left: 82%;
+}
