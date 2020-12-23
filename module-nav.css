@@ -52,7 +52,7 @@
   transform: rotate( -360deg );
 }
 
-#m_1_hexagon{
+#m_1_hexagon, #m_5_hexagon{
   position: absolute;
   top: -125px;
   left: 20.35%;
@@ -60,15 +60,15 @@
 }
 .hexagon_hover_1{
   transform: rotate( 360deg );
-  background: rgb(224, 94, 126);
+  background: #ffeaa7;
   margin: 0px 100px;
 }
-#module_1_dot{
+#module_1_dot, #module_5_dot{
   left: 18%;
   z-index: 2;
 }
 
-#m_2_hexagon{
+#m_2_hexagon, #m_6_hexagon{
   position: absolute;
   top: -125px;
   left: 40%;
@@ -76,14 +76,14 @@
 }
 .hexagon_hover_2{
   transform: rotate( 360deg );
-  background: rgb(111, 209, 255);
+  background: #fab1a0;
   margin: 0px 100px;
 }
-#module_2_dot{
+#module_2_dot, #module_6_dot{
   left: 40%;
 }
 
-#m_3_hexagon{
+#m_3_hexagon, #m_7_hexagon{
   position: absolute;
   top: -125px;
   left: 60%;
@@ -91,14 +91,14 @@
 }
 .hexagon_hover_3{
   transform: rotate( 360deg );
-  background: rgb(140, 255, 194);
+  background: #BDC581;
   margin: 0px 100px;
 }
-#module_3_dot{
+#module_3_dot, #module_7_dot{
   left: 60%;
 }
 
-#m_4_hexagon{
+#m_4_hexagon, #m_8_hexagon{
   position: absolute;
   top: -125px;
   left: 82%;
@@ -106,15 +106,43 @@
 }
 .hexagon_hover_4{
   transform: rotate( 360deg );
-  background: rgb(213, 125, 235);
+  background: #7ed6df;
   margin: 0px 100px;
 }
-#m_4_icon{
-  top: 18%;
+
+#module_4_dot, #module_8_dot{
+  left: 82%;
+}
+
+#m_7_icon{
+  top: 15%;
   left: 2%;
   width: 50px;
   height: 50px;
 }
-#module_4_dot{
-  left: 82%;
+
+/* 2020 타임라인 호버 색상 */
+
+.hexagon_hover_5{
+  transform: rotate( 360deg );
+  background :#badc58;
+  margin: 0px 100px;
+}
+
+.hexagon_hover_6{
+  transform: rotate( 360deg );
+  background: rgb(148, 185, 192);
+  margin: 0px 100px;
+}
+
+.hexagon_hover_7{
+  transform: rotate( 360deg );
+  background: #f5cd79;
+  margin: 0px 100px;
+}
+
+.hexagon_hover_8{
+  transform: rotate( 360deg );
+  background: rgb(185, 134, 134);
+  margin: 0px 100px;
 }
