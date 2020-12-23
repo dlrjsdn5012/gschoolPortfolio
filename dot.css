@@ -1,0 +1,65 @@
+/* 연도 점  */
+.year_dot{
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 75%;
+}
+.inner_dot{
+  position: absolute;
+  top: 4.8px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 75%;
+}
+
+/* 2019년도 점 */
+#year_2019{
+  left: -32px;
+  border: 3px solid rgba(218, 218, 141, 0.8);
+}
+#year_2019_inner{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(224, 224, 99)
+}
+#year_2019_text{
+  position: absolute;
+  color: rgb(216, 216, 216);
+  font-size: 20px;
+  font-family: 'Wemakeprice-Bold';
+  top: 25px;
+  right: -31px;
+}
+
+/* 2020년도 점 */
+#year_2020{
+  left: -32px;
+  border: 3px solid rgb(184, 218, 231, 0.8);
+}
+#year_2020_inner{
+  width: 10px;
+  height: 10px;
+  background-color: skyblue;
+}
+#year_2020_text{
+  position: absolute;
+  color: rgb(216, 216, 216);
+  font-size: 20px;
+  font-family: 'Wemakeprice-Bold';
+  top: 25px;
+  left: -31px;
+}
+
+/* 모듈 점 */
+.module_dot{
+  position: absolute;
+  top: -2.4px;
+  background-color: rgb(235, 235, 235);
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 75%;
+}
