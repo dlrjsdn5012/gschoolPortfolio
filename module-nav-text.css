@@ -55,7 +55,7 @@
   opacity: 1;
 }
 
-/* 2019 Nav 텍스트 */
+/* 2020 Nav 텍스트 */
 
 #m_1_text{
   left: 17%;
@@ -67,20 +67,5 @@
   left: 59%;
 }
 #m_4_text{
-  left: 81%;
-}
-
-/* 2020 Nav 텍스트 */
-
-#m_5_text{
-  left: 17%;
-}
-#m_6_text{
-  left: 39%;
-}
-#m_7_text{
-  left: 59%;
-}
-#m_8_text{
   left: 81%;
 }
