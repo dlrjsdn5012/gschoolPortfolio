@@ -1,146 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./dot.css">
-    <link rel="stylesheet" href="./time-line.css">
-    <link rel="stylesheet" href="./module-nav.css">
-    <link rel="stylesheet" href="./module-nav-text.css">
-    <link rel="stylesheet" href="./font.css">
-</head>
-<body>
-<!-- 2019 타임라인-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./dot.css" />
+    <link rel="stylesheet" href="./time-line.css" />
+    <link rel="stylesheet" href="./module-nav.css" />
+    <link rel="stylesheet" href="./module-nav-text.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/327d7cef4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+    <script src="nav.js" defer></script>
+  </head>
+  <body>
+    <!-- Nav container -->
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <img src="/images/dubu_icon.png" width="20px", height="20px">
+        <a href="">My Portfolio</a>
+      </div>
 
-    <div id="time_line_2019">
-        <!-- 2019년 점 -->
-        <div id="year_2019" class="year_dot">
-            <div id="year_2019_inner" class="inner_dot"></div>
-        </div>
-        <div id="year_2020_text">2019</div>
+      <ul class="navbar_menu">
+        <li><a href="index.html">My Roadmap</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
+      <ul class="navbar_icons">
+        <li><i class="fas fa-link"></i></li>
+      </ul>
 
-        <!-- 2019 1모듈 -->
-        <a href="./19M1.html">
-            <div id="m_1_hexagon" class="hexagon">
-                <img id="m_1_icon" class="module_icon" src="">
-            </div>
-        </a>
-        <div id="module_1_dot" class="module_dot"></div>
-        <div id="m_1_text" class="module_text">
-          <div id="line_1" class="line"></div>
-          <div id="year_1" class="year">2019 M1</div>
-          <div id="info_1" class="info">Info</div>
-        </div>
-        
+      <a href="#" class="navbar_toggleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
 
-        <!-- 2019 2모듈 -->
-        <a href="./19M2.html">
-            <div id="m_2_hexagon" class="hexagon">
-                <img id="m_2_icon" class="module_icon" src="">
-            </div>
-        </a>
-        <div id="module_2_dot" class="module_dot"></div>
-        <div id="m_2_text" class="module_text">
-          <div id="line_2" class="line"></div>
-          <div id="year_2" class="year">2019 M2</div>
-          <div id="info_2" class="info">Info</div>
-        </div>
-
-
-        <!-- 2019 3모듈 -->
-        <a href="./19M3.html">
-            <div id="m_3_hexagon" class="hexagon">
-                <img id="m_3_icon" class="module_icon" src="">
-            </div>
-        </a>
-        <div id="module_3_dot" class="module_dot"></div>
-        <div id="m_3_text" class="module_text">
-          <div id="line_3" class="line"></div>
-          <div id="year_3" class="year">2019 M3</div>
-          <div id="info_3" class="info">Info</div>
-        </div>
-
-
-        <!-- 2019 4모듈 -->
-        <a href="./19M4.html">
-            <div id="m_4_hexagon" class="hexagon">
-                <img id="m_4_icon" class="module_icon" src="">
-            </div>
-        </a>
-        <div id="module_4_dot" class="module_dot"></div>
-        <div id="m_4_text" class="module_text">
-          <div id="line_4" class="line"></div>
-          <div id="year_4" class="year">2019 M4</div>
-          <div id="info_4" class="info">Info</div>
-        </div>
-    </div>
-
-<!-- 2020 타임라인-->
+    <!-- 2020 타임라인-->
 
     <div id="time_line_2020">
+      <div id="titleBox">
+        <div id="roadmapTitle">건우의 거캠 로드맵</div>
+      </div>
       <!-- 2020년 점 -->
       <div id="year_2020" class="year_dot">
-          <div id="year_2020_inner" class="inner_dot"></div>
+        <div id="year_2020_inner" class="inner_dot"></div>
       </div>
       <div id="year_2020_text">2020</div>
 
-
       <!-- 2020 1모듈 -->
       <a href="./20M1.html">
-          <div id="m_5_hexagon" class="hexagon">
-              <img id="m_5_icon" class="module_icon" src="/images/cloud-computing.png">
-          </div>
+        <div id="m_1_hexagon" class="hexagon">
+          <img
+            id="m_1_icon"
+            class="module_icon"
+            src="/images/cloud-computing.png"
+          />
+        </div>
       </a>
-      <div id="module_5_dot" class="module_dot"></div>
-      <div id="m_5_text" class="module_text">
-        <div id="line_5" class="line"></div>
-        <div id="year_5" class="year">2020 M1</div>
-        <div id="info_5" class="info">D-Lab</div>
+      <div id="module_1_dot" class="module_dot"></div>
+      <div id="m_1_text" class="module_text">
+        <div id="line_1" class="line"></div>
+        <div id="year_1" class="year">2020 M1</div>
+        <div id="info_1" class="info">D-Lab</div>
       </div>
-
 
       <!-- 2020 2모듈 -->
       <a href="./20M2.html">
-          <div id="m_6_hexagon" class="hexagon">
-              <img id="m_6_icon" class="module_icon" src="/images/focus.png">
-          </div>
+        <div id="m_2_hexagon" class="hexagon">
+          <img id="m_2_icon" class="module_icon" src="/images/focus.png" />
+        </div>
       </a>
-      <div id="module_6_dot" class="module_dot"></div>
-      <div id="m_6_text" class="module_text">
-        <div id="line_6" class="line"></div>
-        <div id="year_6" class="year">2020 M2</div>
-        <div id="info_6" class="info">마케팅으로<br>18만원 벌기!</div>
+      <div id="module_2_dot" class="module_dot"></div>
+      <div id="m_2_text" class="module_text">
+        <div id="line_2" class="line"></div>
+        <div id="year_2" class="year">2020 M2</div>
+        <div id="info_2" class="info">마케팅으로<br />18만원 벌기!</div>
       </div>
-
 
       <!-- 2020 3모듈 -->
       <a href="./20M3.html">
-          <div id="m_7_hexagon" class="hexagon">
-              <img id="m_7_icon" class="module_icon" src="/images/fluctuation.png">
-          </div>
+        <div id="m_3_hexagon" class="hexagon">
+          <img
+            id="m_3_icon"
+            class="module_icon"
+            src="/images/fluctuation.png"
+          />
+        </div>
       </a>
-      <div id="module_7_dot" class="module_dot"></div>
-      <div id="m_7_text" class="module_text">
-        <div id="line_7" class="line"></div>
-        <div id="year_7" class="year">2020 M3</div>
-        <div id="info_7" class="info">주식 열풍 시대의<br>주식 리딩방!</div>
+      <div id="module_3_dot" class="module_dot"></div>
+      <div id="m_3_text" class="module_text">
+        <div id="line_3" class="line"></div>
+        <div id="year_3" class="year">2020 M3</div>
+        <div id="info_3" class="info">주식 열풍 시대의<br />주식 리딩방!</div>
       </div>
-
 
       <!-- 2020 4모듈 -->
       <a href="./20M4.html">
-          <div id="m_8_hexagon" class="hexagon">
-              <img id="m_8_icon" class="module_icon" src="/images/book.png">
-          </div>
+        <div id="m_4_hexagon" class="hexagon">
+          <img id="m_4_icon" class="module_icon" src="/images/book.png" />
+        </div>
       </a>
-      <div id="module_8_dot" class="module_dot"></div>
-      <div id="m_8_text" class="module_text">
-        <div id="line_8" class="line"></div>
-        <div id="year_8" class="year">2020 M4</div>
-        <div id="info_8" class="info">순환가치 있는<br>헌책들에 대하여...</div>
+      <div id="module_4_dot" class="module_dot"></div>
+      <div id="m_4_text" class="module_text">
+        <div id="line_4" class="line"></div>
+        <div id="year_4" class="year">2020 M4</div>
+        <div id="info_4" class="info">
+          순환가치 있는<br />헌책들에 대하여...
+        </div>
+        
       </div>
-  </div>
-  <script src="index.js"></script>
-</body>
+    </div>
+  </body>
 </html>
