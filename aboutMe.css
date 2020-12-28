@@ -1,0 +1,159 @@
+/* navBar style */
+
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #263343;
+  --accent-color: #d49466;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'NanumBarunpen';
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Nav container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--background-color);
+  margin-bottom: 200px;
+  box-shadow: 0 1.5px 15px 0 rgba(25, 83, 192, 0.32);
+}
+
+/* Logo with text */
+.navbar_logo {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar_logo img {
+  margin-left: 5px;
+}
+
+/* Menu */
+.navbar_menu {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navbar_menu li {
+  padding: 8px 24px 8px 24px;
+  margin: 0px 15px 0px 15px;
+  font-size: 20px;
+}
+
+.navbar_menu li:hover {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+.navbar_icons {
+  list-style: none;
+  color: var(--text-color);
+  display: flex;
+  padding-left: 0;
+}
+
+/* Icons */
+.navbar_icons li {
+  padding: 8px 12px;
+}
+
+/* Toggle button */
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+/* For small screen */
+@media screen and (max-width: 768px) {
+  /* Nav container */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  /* Menu */
+  .navbar_menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar_menu a {
+    display: block;
+  }
+
+  /* Icons */
+  .navbar_icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Toggle button */
+  .navbar_toggleBtn {
+    display: block;
+  }
+
+  .navbar_menu.active,
+  .navbar_icons.active {
+    display: flex;
+  }
+}
+
+/* contact style */
+
+body {
+  background-color: rgb(65, 65, 65);
+
+}
+
+h1, ul {
+  font-family: 'NanumBarunpen', sans-serif;
+}
+
+hr {
+  margin: 0 30px;
+}
+
+.profile {
+  background-color: white;
+  border-top: 10px solid rgb(65, 65, 65, 0.5);
+  border-bottom: 10px solid rgb(65, 65, 65, 0.8);;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 75px;
+  margin-top: -100px;
+}
+
+.text{
+  color: gray;
+  text-align: left;
+  font-size: 1.2em;
+  list-style: none;
+}
