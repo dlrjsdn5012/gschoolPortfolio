@@ -2,7 +2,7 @@
   position: absolute;
   top: 10px;
   color: white;
-  font-family: 'Wemakeprice-Bold';
+  font-family: 'NanumBarunpen';
 }
 
 /* line class */
@@ -31,7 +31,7 @@
 /* year class */
 .year{
   color: rgba(255, 255, 255, 0.89);
-  font-family: 'Wemakeprice-Regular';
+  font-family: 'NanumBarunpen';
   margin-top: -5px;
   margin-bottom: -5px;
   opacity: 0;
@@ -39,7 +39,7 @@
 }
 .year_hover{
   color: rgba(255, 255, 255, 0.89);
-  font-family: 'Wemakeprice-Regular';
+  font-family: 'NanumBarunpen';
   opacity: 1;
   margin-top: 0px;
   margin-bottom: 5px;
