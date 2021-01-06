@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2020_M3</title>
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="20M3.css">
+  <script
+      src="https://kit.fontawesome.com/327d7cef4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="nav.js" defer></script>
+</head>
+<body>
+  <!-- Nav container -->
+  <nav class="navbar">
+    <div class="navbar_logo">
+      <a href="index.html">건우의 포트폴리오</a>
+    </div>
+
+    <ul class="navbar_menu">
+      <li><a href="index.html">My Roadmap</a></li>
+      <li><a href="aboutMe.html">About me</a></li>
+    </ul>
+
+    <ul class="navbar_icons">
+      <li><a href="https://drive.google.com/drive/folders/1Ap5Ali01nc2Cwhqhb2lkT5-NlNktsDbj" target="_blank"><i class="fas fa-cloud-download-alt"></i></a></li>
+      <li><button class="copyMail" style="cursor:pointer"><i class="fas fa-envelope"></i></button></li>
+      <li><a href="https://github.com/dlrjsdn5012/dlrjsdn5012" target="_blank"><i class="fab fa-github"></i></a></li>
+      <li></li>
+    </ul>
+
+    <a href="#" class="navbar_toggleBtn">
+      <i class="fas fa-bars"></i>
+    </a>
+  </nav>
+
+  <!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="./images/M3/M3.001.png" alt=""></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.002.png" alt=""></div>
+			<div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.003.MOV" autoplay loop muted alt="" /></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.004.png" alt=""></div>
+			<div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.005.MOV" autoplay loop muted alt=""></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.006.png" alt=""></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.007.png" alt=""></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.008.png" alt=""></div>
+			<div class="swiper-slide"><img src="./images/M3/M3.009.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.010.png" alt=""></div>
+      <div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.011.mov" autoplay loop muted alt=""></div>
+      <div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.012.MOV" autoplay loop muted alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.013.png" alt=""></div>
+      <div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.014.MOV" autoplay loop muted alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.015.png" alt=""></div>
+      <div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.016.MOV" autoplay loop muted alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.017.png" alt=""></div>
+      <div class="swiper-slide"><div class="videoInfo">This slide is<br>Video!</div><video src="./images/M3/M3.018.mov" autoplay loop muted alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.019.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/M3/M3.020.png" alt=""></div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+	</script>
+</body>
+</html>
